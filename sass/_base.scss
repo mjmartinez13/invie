@@ -1,0 +1,194 @@
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Allerta', sans-serif;
+
+body {
+  font-family: 'Allerta', sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.background {
+  background: {
+    image: url('../images/background.png');
+    size: cover;
+  }
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  span {
+    text-decoration: underline;
+  }
+}
+.title-a {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.guitarras {
+  position: relative;
+  padding: 53px 58px;
+  margin: 10px;
+  border: 2px solid #1f313c;
+  border-radius: 8px;
+  color: #1f313c;
+  margin-bottom: 20px;
+  h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.title-b {
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: #1f313c;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.right {
+  position: absolute;
+  top: -46%;
+  left: 49%;
+}
+.left {
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+
+.guitarra-container-left {
+  margin-left: 350px;
+}
+
+#guitarras {
+  padding: 30px 0;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 12px;
+  background: #fd324e;
+  border: none;
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(to left,#fe344e, #ff7250);
+}
+
+
+#footer {
+  padding: 50px 0px;
+  background: #273b47;
+
+  img {
+    display: block;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacto {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 200px;
+    strong {
+      display: block;
+    }
+    a {
+      color: #fff;
+      margin: 10px 10px 10px 0;
+    }
+  }
+  .formulario {
+    display: flex;
+    width: 400px;
+    color: #fff;
+    input,textarea {
+      outline: 0;
+    }
+    label {
+      margin-bottom: 10px;
+    }
+    input:focus, textarea:focus {
+      background-color: lightgray;
+    }
+  }
+  .sexo {
+    margin-bottom: 10px;
+  }
+
+  .col1,.col2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .col2 {
+    align-items: flex-start;
+
+    .button {
+      margin-top: 10px;
+    }
+  }
+  .col1 {
+    margin-right: 15px;
+
+    #email {
+      margin-bottom: 10px;
+    }
+  }
+  .intereses {
+    margin-bottom: 10px;
+    label {
+      font-size: 14px;
+    }
+  }
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    padding: 10px 20px;
+    background: #273b47;
+    color: #fff;
+    text-align: left;
+  }
+  td {
+    padding: 20px;
+  }
+  table,td,th {
+    border: 1px solid #273b47;
+  }
+}
+
+.portada-precios {
+  background: #1f313c;
+  padding-bottom: 16px;
+}
+
+.table {
+  padding: 40px 0;
+}

@@ -1,0 +1,28 @@
+#header {
+  font-size: 24px;
+  padding: 16px 0 0 0;
+  nav {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    &:before {
+      content: '⊚';
+      color: #fff;
+    }
+  }
+  a {
+    color: #fff;
+  }
+  figure {
+    display: inline-block;
+
+    img {
+      display: inline-block;
+    }
+  }
+}
