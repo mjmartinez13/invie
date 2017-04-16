@@ -19,7 +19,7 @@
     #header figure img {
       display: inline-block; }
 
-.menu {
+.menu-mobile {
   margin: 0;
   background: rgba(255, 60, 88, 0.7);
   position: absolute;
@@ -36,17 +36,17 @@
   justify-content: center !important;
   margin: 0 !important;
   transition: all .3s; }
-  .menu ul {
+  .menu-mobile ul {
     width: 100%; }
-  .menu li {
+  .menu-mobile li {
     display: block !important;
     margin-left: 0 !important;
     width: 100% !important;
     border-bottom: 2px solid #fff;
     padding: 10px 0; }
-    .menu li:before {
+    .menu-mobile li:before {
       display: none; }
-    .menu li:first-child {
+    .menu-mobile li:first-child {
       border-top: 2px solid #fff; }
 
 .active {
@@ -352,6 +352,9 @@ table {
     #footer .formulario input[type=email] {
       height: 35px; } }
 @media screen and (max-width: 500px) {
+  .menu {
+    display: none !important; }
+
   .portada-container {
     align-items: center; }
 
