@@ -26,3 +26,43 @@
     }
   }
 }
+
+.menu {
+  margin: 0;
+  background: rgba(255, 60, 88, 0.7);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  transition: all .3s;
+  ul {
+    width: 100%;
+  }
+  li {
+    display: block !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    &:before {
+      display: none;
+    }
+    &:first-child {
+      border-top: 2px solid #fff;
+    }
+
+  }
+}
+
+.active {
+  left: 0%;
+}

@@ -1,3 +1,5 @@
+// TABLET //
+
 @media screen and (max-width: 800px) {
   #header {
     padding: 10px 20px;
@@ -23,6 +25,8 @@
   }
   .portada-container {
     height: auto;
+    width: 98%;
+    margin: auto;
   }
   .title-b {
     text-align: center;
@@ -60,6 +64,8 @@
     }
   }
 }
+
+
 
 @media screen and (max-width: 650px) {
 
@@ -133,54 +139,22 @@
 
 }
 
+
+// PHONES
+
 @media screen and (max-width: 500px) {
 
-  #header {
-
-    .menu {
-      margin: 0;
-      background: rgba(255, 60, 88, 0.7);
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      height: 100%;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      ul {
-        width: 100%;
-      }
-    li {
-      display: block;
-      margin: 0;
-      border-bottom: 1px solid #fff;
-      padding: 10px 0;
-      width: 100%;
-    }
-    li:before{
-      display: none;
-    }
-    a {
-      font-weight: bold;
-    }
-    li:first-child{
-      border-top: 1px solid #fff;
-    }
-  }
-}
-  .portada-container {
+  .portada-container{
     align-items: center;
   }
+
   .title {
     font-size: 30px;
     text-align: center;
   }
   .title-a {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
   }
   .right,.left {
     width: 200px;
@@ -197,5 +171,11 @@
  .burger-button {
    z-index: 2;
    display: block;
+ }
+ #guitarras {
+   padding: 20px 0;
+ }
+ .title-b {
+   margin-bottom: 20px;
  }
 }
