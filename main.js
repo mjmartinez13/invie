@@ -4,4 +4,9 @@ $(document).ready(function () {
     $('.menu-mobile').toggleClass('active');
   });
 
+  var bLazy = new Blazy({
+      selector: 'img'
+  });
+
+
 });
